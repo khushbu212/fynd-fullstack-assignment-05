@@ -1,0 +1,60 @@
+.body{
+    overflow: hidden;
+}
+
+.login-overlay{
+    position: fixed;
+    top: 50%;   
+    left: 50%;                    
+    transform: translate(-50%, -50%);
+}
+.login-message{
+    background-color: blue;
+    color: white;
+}
+.login-form-inputs{
+    background-color: white;
+}
+
+.login_form{
+    display: flex;
+}
+
+.login-form-inputs input{
+    margin: 20px 10px;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+}
+
+.login-btn{
+    display: block;
+    margin: 20px 10px;
+    width: 80%;
+    padding: 15px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.close-btn:after{
+    display: inline-block;
+    content: "\00d7"; 
+    font-size: 40px;
+}
+
+.login-div{
+    padding: 40px 30px;
+}
+.login-div:nth-child(1) {
+    width: 30%;
+}
+
+.login-div:nth-child(2) {
+    width: 60%;
+}
+
+.login-div:nth-child(3) {
+    margin: 0;
+    padding: 0;
+}
